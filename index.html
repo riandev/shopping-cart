@@ -86,7 +86,7 @@
                 productQuantityFinal = document.getElementById('productQuantity').value++;
                 var item1UnitPrice = document.getElementById('item1UnitPrice').innerText;
                 var finalUnitPrice = parseInt(item1UnitPrice);
-                var output = finalUnitPrice * productQuantityFinal;
+                var output = 1219 * productQuantityFinal;
                 document.getElementById('item1UnitPrice').innerText = output;
 
             })
@@ -96,7 +96,10 @@
             var productQuantity = document.getElementById('productQuantity').value;
             var productQuantityFinal = parseInt(productQuantity);
             productQuantityFinal = document.getElementById('productQuantity').value--;
-
+            var item1UnitPrice = document.getElementById('item1UnitPrice').innerText;
+            var finalUnitPrice = parseInt(item1UnitPrice);
+            var output = 1219 * productQuantityFinal;
+            document.getElementById('item1UnitPrice').innerText = output;
         })
     </script>
 </body>
